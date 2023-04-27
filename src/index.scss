@@ -1,4 +1,3 @@
-@import "./scss/app.scss";
 
 @import "./scss/header.scss";
 
@@ -39,5 +38,11 @@ body {
   html {
     font-size: 0.75rem;
   }
+}
+
+.header {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--primary-color);
 }
 
